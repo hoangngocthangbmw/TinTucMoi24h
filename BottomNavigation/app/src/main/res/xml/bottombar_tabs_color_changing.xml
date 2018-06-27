@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <!--<tab-->
+        <!--id="@+id/tab_recents"-->
+        <!--icon="@drawable/ic_recents"-->
+        <!--title="Recents"-->
+        <!--barColorWhenSelected="@color/colorAccent" />-->
+    <tab
+        id="@+id/tab_news"
+        icon="@drawable/ic_fiber_new_black_24dp"
+        title="Tin tức"
+        barColorWhenSelected="#e9a719" />
+    <tab
+        id="@+id/tab_videos"
+        icon="@drawable/ic_slow_motion_video_black_24dp"
+        title="Video"
+        barColorWhenSelected="#ea4545" />
+    <tab
+        id="@+id/tab_me"
+        icon="@drawable/ic_person_black_24dp"
+        title="Cá nhân"
+        barColorWhenSelected="#00796b" />
+    <tab
+        id="@+id/tab_menu"
+        icon="@drawable/ic_menu_black_24dp"
+        title="Menu"
+        barColorWhenSelected="#665653" />
+</tabs>

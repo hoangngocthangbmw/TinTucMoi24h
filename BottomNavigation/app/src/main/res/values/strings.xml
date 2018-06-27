@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tin tức mới 24h</string>
+    <!--<string name="linkTrangChu">http://dantri.com.vn/trangchu.rss</string>-->
+    <!--<string name="linkSucKhoe">http://dantri.com.vn/suc-khoe.rss</string>-->
+    <!--<string name="linkXaHoi">http://dantri.com.vn/xa-hoi.rss</string>-->
+    <!--<string name="linkGiaiTri">http://dantri.com.vn/giai-tri.rss</string>-->
+    <!--<string name="linkGiaoDuc">http://dantri.com.vn/giao-duc-khuyen-hoc.rss</string>-->
+    <!--<string name="linkTheThao">http://dantri.com.vn/the-thao.rss</string>-->
+    <!--<string name="linkTheGioi">http://dantri.com.vn/the-gioi.rss</string>-->
+    <!--<string name="linkKinhDoanh">http://dantri.com.vn/kinh-doanh.rss</string>-->
+    <!--<string name="linkOtoXemay">http://dantri.com.vn/o-to-xe-may.rss</string>-->
+    <!--<string name="linkSucManhSo">http://dantri.com.vn/suc-manh-so.rss</string>-->
+    <!--<string name="linkTinhYeuGioiTinh">http://dantri.com.vn/tinh-yeu-gioi-tinh.rss</string>-->
+    <!--<string name="linkChuyenLa">http://dantri.com.vn/chuyen-la.rss</string>-->
+    <!--<string name="linkViecLam">http://dantri.com.vn/viec-lam.rss</string>-->
+    <!--<string name="linkVanHoa">http://dantri.com.vn/van-hoa.rss</string>-->
+    <!--<string name="linkPhapLuat">http://dantri.com.vn/phap-luat.rss</string>-->
+    <!--<string name="linkDoiSong">http://dantri.com.vn/doi-song.rss</string>-->
+    <!--<string name="linkDuLich">http://dantri.com.vn/du-lich.rss</string>-->
+    <string name="facebook_app_id">605842493092800</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+</resources>

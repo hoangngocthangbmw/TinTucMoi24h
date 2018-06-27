@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.watermelon.thanghn.bottomnavigation.screen.comment.CommentActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutAbove"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/colorPrimaryDark">
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:padding="5dp"
+        android:layout_marginBottom="42dp"
+        android:layout_below="@+id/layoutAbove"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/layoutHandle"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+        <LinearLayout
+            android:padding="2dp"
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:drawableLeft="@drawable/ic_edit_black_24dp"
+                android:id="@+id/editTextCmt"
+                android:hint="Nhập bình luận ..."
+                android:layout_width="0dp"
+                android:layout_height="35dp" />
+            <ImageButton
+                android:id="@+id/buttonSend"
+                android:src="@drawable/ic_send_black_24dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="42dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

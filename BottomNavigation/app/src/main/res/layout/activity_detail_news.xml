@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/layoutAbove"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="32dp">
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginBottom="42dp"
+        android:layout_below="@+id/layoutAbove"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<TextView-->
+            <!--android:visibility="visible"-->
+            <!--android:id="@+id/txtNone"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutHandle"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+        <LinearLayout
+            android:padding="2dp"
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:drawableLeft="@drawable/ic_edit_black_24dp"
+                android:id="@+id/editTextCmt"
+                android:hint="Nhập bình luận ..."
+                android:layout_width="150dp"
+                android:layout_height="35dp" />
+            <ImageView
+                android:id="@+id/buttonCmt"
+                android:layout_weight="1"
+               android:src="@drawable/ic_chat_bubble_outline_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/buttonSave"
+                android:layout_weight="1"
+               android:src="@drawable/ic_save_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/buttonShare"
+                android:layout_weight="1"
+                android:src="@drawable/ic_share_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
